@@ -1,0 +1,371 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #953e46;
+    color: white;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    height: 300px;
+}
+
+header {
+    margin-top: 1.5%;
+    height: 150px;
+}
+
+
+
+header ul li {
+    float: left;
+    list-style: none;
+    margin-left: 3%;
+}
+
+header ul li h1 {
+    font-weight: 600;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+header ul li h1 span {
+    font-weight: 300;
+}
+
+header ul li input {
+    width: 400px;
+    height: 40px;
+    color: #953e46;
+    outline: none;
+    border-style: none;
+}
+
+header ul li input[placeholder] {
+    text-indent: 10px;
+    color: #953e46;
+    font-size: 16px;
+}
+
+header ul li input[type='text'] {
+    background-image: url(../img/ico.png);
+    background-position: 98% 10px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+
+header ul li button {
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 20px;
+    color: #953e46;
+    background-color: white;
+    border-style: solid;
+    outline: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button .fa-arrow-up {
+    margin-right: 5px;
+}
+
+header ul li .fa-user {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    color: #953e46;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 5px !important;
+}
+
+.person {
+    position: relative;
+    margin-left: 0.7% !important;
+}
+
+.person h2 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.person h2 h3 {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.person span {
+    border-radius: 999px;
+    color: #953e46;
+    background-color: white;
+    width: 25px;
+    text-align: center;
+    line-height: 25px;
+    height: 25px;
+    font-size: 15px;
+    position: absolute;
+    top: -30%;
+    right: -26%;
+    font-weight: 600;
+}
+
+
+
+
+.menu {
+
+    height: 70px;
+    border-top: 1.5px solid white;
+    border-bottom: 1.5px solid white;
+}
+
+.menu ul {
+    padding-top: 2%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.menu ul li {
+    list-style: none;
+    margin-left: 1%;
+    margin-right: 1%;
+    display: inline-block;
+}
+
+.menu ul li span {
+    margin-left: 10%;
+    margin-right: 5%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+
+
+.content {
+    height: 700px;
+    border: 1px solid;
+    margin-top: 3%;
+}
+
+.content h1 {
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 1%;
+}
+
+.content,
+.secondContent,
+.thirdContent h1 {
+    font-size: 40px !important;
+    font-weight: 500;
+    padding-bottom: 1%;
+}
+
+.videos {
+    width: 70%;
+    height: 625px;
+    border: 1px solid;
+    float: left;
+}
+
+.videos .sol {
+    width: 65%;
+    border: 1px solid;
+    height: 600px;
+    float: left;
+}
+
+.videos .sag {
+    width: 35%;
+    border: 1px solid;
+    height: 600px;
+    float: left;
+}
+
+.content .activity {
+    width: 30%;
+    border: 1px solid;
+    height: 600px;
+    float: left;
+}
+
+.content .videos .sol .ust {
+    height: 400px;
+    background-color: pink;
+}
+
+.content .videos .sol .alt {
+    height: 200px;
+    background-color: burlywood;
+    float: left;
+    width: 257px;
+    margin-right: 1%;
+}
+
+.content .videos .sag .michael3 {
+    height: 190px;
+    background-color: gray;
+    margin-bottom: 4.5%;
+}
+
+
+
+
+
+
+
+ .secondContent .videos .sol .ust {
+    height: 400px;
+    background-color: gray;
+}
+
+.secondContent  .videos .sol .alt {
+    height: 200px;
+    background-color: white;
+    float: left;
+    width: 257px;
+    margin-right: 1%;
+}
+
+ .secondContent .videos .sag .michael3 {
+    height: 190px;
+    background-color: white;
+    margin-bottom: 4.5%;
+}
+
+
+
+
+
+
+.thirdContent .videos .sol .ust {
+    height: 400px;
+    background-color: gray;
+}
+
+.thirdContent  .videos .sol .alt {
+    height: 200px;
+    background-color: white;
+    float: left;
+    width: 257px;
+    margin-right: 1%;
+}
+
+ .thirdContent .videos .sag .michael3 {
+    height: 190px;
+    background-color: white;
+    margin-bottom: 4.5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.content .activity .johnSt {
+    height: 95px;
+    background-color: white;
+    margin-bottom: 6px;
+}
+
+.channels {
+    width: 30%;
+    border: 1px solid;
+    height: 900px;
+    float: left;
+}
+
+.channels .solG {
+    width: 48%;
+    height: 900px;
+    float: left;
+    margin-right: 6px;
+}
+
+.Google {
+    height: 100px;
+    background-color: azure;
+    margin-bottom: 5px
+}
+
+
+
+
+footer {
+    float: left;
+    width: 100%;
+    padding-top: 4%;
+    padding-bottom: 2%;
+    margin-top: 10%;
+    border-top: 1.5px solid white;
+}
+
+footer ul {
+    padding-bottom: 2%;
+}
+
+footer li {
+    font-size: 14px;
+    margin-left: 1%;
+    margin-right: 1%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.info ul {
+    border: none;
+    padding-top: 1%;
+}
+
+footer .not1li {
+    margin-left: 0px;
+}
+
+footer .icons .fa {
+    background-color: white;
+    color: #953e46;
+    border: none;
+    padding: 12px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 16px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+footer .icons li {
+    margin-left: 0px;
+}
+
+footer .copyrights {
+    padding-top: 1%;
+    font-size: 17px;
+    font-weight: 600;
+}
